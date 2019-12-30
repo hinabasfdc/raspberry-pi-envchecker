@@ -40,7 +40,7 @@ def updateEntityData(s):
       "type": "Float"
     },
     "captureddatetime": {
-      "value": j["captureddatetime"]["value"],
+      "value": j["captureddatetime"]["value"] + '+09:00',
       "type": "DateTime"
     }
   }
